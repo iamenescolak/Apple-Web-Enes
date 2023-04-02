@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="profile-picture"></div>
+      <div class="name">Hasan Enes Colak</div>
+      <div class="email">iamenescolak@gmail.com</div>
+      <div class="social-media">
+        <div class="location">Chicago, IL</div>
+        <div class="github"><a href="https://github.com/iamenescolak?tab=repositories" target="_blank">Github</a></div>
+        <div class="linkedin"><a href="https://www.linkedin.com/in/iamenescolak/" target="_blank">Linkedin</a></div>
+        <div class="instagram"><a href="https://www.youtube.com/enescolak" target="_blank">Instagram</a></div>
+      </div>
+    </div>
+
+    <div class="section-container1">
+      <div class="section-icon"></div>
+      <div class="section-project-title">Project 1</div>
+      <div class="section-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    </div>
+
+    <div class="section-container2">
+      <div class="section-icon2"></div>
+      <div class="section-project-title2">Project 2</div>
+      <div class="section-content2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    </div>
+
+    <div class="section-container3">
+      <div class="section-icon3"></div>
+      <div class="section-project-title3">Project 3</div>
+      <div class="section-content3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+    </div>
+
+    <script>
+      const githubLink = document.querySelector('.github');
+      const linkedinLink = document.querySelector('.linkedin');
+      const instagramLink = document.querySelector('.instagram');
+    
+      githubLink.addEventListener('click', () => {
+        window.location.href = 'https://github.com/iamenescolak?tab=repositories';
+      });
+    
+      linkedinLink.addEventListener('click', () => {
+        window.location.href = 'https://www.linkedin.com/in/iamenescolak/';
+      });
+    
+      instagramLink.addEventListener('click', () => {
+        window.location.href = 'https://www.youtube.com/enescolak';
+      });
+    </script>
+  </body>
+</html>
